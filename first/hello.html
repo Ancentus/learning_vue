@@ -13,7 +13,9 @@
     
     <!-- Some HTML -->
     <div id="root" v-bind:title="timestamp">
-        {{ message }}
+        <p >{{ message }} </p>
+        <!-- New text input -->
+        <input v-model="message" />
     </div>
     <!-- Some JavaScript -->
     <script>
