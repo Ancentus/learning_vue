@@ -8,3 +8,6 @@ new Vue({
         }
     },
 })
+
+const html = marked.parse('**Bold** *Italic* [link](http://vuejs.org/)')
+console.log(html)

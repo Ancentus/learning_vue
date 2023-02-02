@@ -14,13 +14,15 @@
 <body>
     <!-- Include vue library in the page -->
     <script src="js/vue.js"></script>
+    <!-- Add the marked library: -->
+    <script src="https://unpkg.com/marked"></script>
 
     <!-- Notebook app -->
     <div id="notebook">
 
         <!-- Main pane -->
         <section class="main">
-
+            <textarea v-model="content"></textarea>
         </section>
 
     </div>
