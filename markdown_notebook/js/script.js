@@ -1,5 +1,5 @@
 // New VueJs instance
-new VTTCue({
+new Vue({
     el: '#notebook',
 
     data () {
