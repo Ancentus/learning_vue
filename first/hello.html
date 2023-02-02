@@ -13,11 +13,19 @@
     
     <!-- Some HTML -->
     <div id="root">
-        <p>Is this an Hello world?</p>
+        {{ message }}
     </div>
     <!-- Some JavaScript -->
     <script>
         console.log('Yes! We are using Vue version', Vue.version)
+
+        //start vue app
+        new Vue({
+            el: "#root",
+            data: {
+                message: "Hello Vue.js"
+            },
+        })
     </script>
 </body>
 
